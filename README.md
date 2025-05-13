@@ -22,7 +22,11 @@ A minimalist, responsive shopping list application built with vanilla TypeScript
    git clone https://github.com/jasminexu1/shopping-list-web-app.git
    cd shopping-list-web-app
    ```
-2. Compile the TypeScript files (or use an IDE like VSCode with auto-compilation).
-
-3. Open index.html in your browser.
+2. Run the commands below and open the local URL shown in the output:
+   ```
+   npm install
+   npm run dev
+   ```
+![image](https://github.com/user-attachments/assets/739a90f4-2939-4d82-a210-f84e62a79bcb)
+![image](https://github.com/user-attachments/assets/208cf08b-4e70-4f87-ad7f-7e298255230d)
 
