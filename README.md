@@ -4,10 +4,37 @@ A minimalist, responsive shopping list application built with vanilla TypeScript
 
 ## Features
 
-- Add and categorize shopping items dynamically
-- Edit item categories through an inline overlay panel
-- Custom undo/redo functionality with clean separation of concerns
-- Responsive and accessible UI, styled from scratch
+### 🧩 Modular UI Layout
+
+- **Settings Panel** with Undo, Redo, and an “Edit Categories” button that opens a responsive overlay
+- **Add Section** with:
+  - A text input for entering item names
+  - A dropdown for selecting a category
+  - An add button to insert items into the list
+- **List Section**:
+  - Items are grouped by category
+  - Each item includes:
+    - A checkbox to mark as bought
+    - A non-editable label
+    - A dropdown to change category
+    - A delete (🗑️) button
+
+
+### ⚙️ Item and Category Management
+
+- Add new items dynamically with associated categories
+- Automatically groups items by category
+- Categories are editable via a visual overlay panel
+- Reassign categories and automatically update affected items
+
+
+### 🔁 Undo/Redo Functionality
+
+- Undo and Redo support for:
+  - Adding and removing items
+  - Category reassignments
+- Checkbox interactions (bought/unbought) are not included in Undo/Redo
+
 
 ## Technologies Used
 
